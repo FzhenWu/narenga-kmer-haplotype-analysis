@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# 中间结果（体积大，不入库）
+*.bimbam
+*.bimbam.gz
+*.vcf
+*.vcf.gz
+*.sqlite
+*.bin
+*.bam
+*.bai
+
+# 分析输出目录
+easyhap_*/
+dosage_vs_height*.png
+*.pdf
+
+# 已发表的图件和附表需要入库
+!figures/*.pdf
+!supplementary/*
+
+# 系统
+.DS_Store
+Thumbs.db
